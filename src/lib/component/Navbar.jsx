@@ -25,7 +25,7 @@ export default function Navbar() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500">
                   01.{" "}
                 </span>
-                About
+                Skill
               </a>
             </li>
             <li>
@@ -41,7 +41,7 @@ export default function Navbar() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500">
                   03.{" "}
                 </span>
-                Work
+                Contact
               </a>
             </li>
             <li>
@@ -49,7 +49,7 @@ export default function Navbar() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500">
                   04.{" "}
                 </span>
-                Contact
+                About
               </a>
             </li>
             <li>
