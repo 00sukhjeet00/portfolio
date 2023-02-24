@@ -25,7 +25,7 @@ export default function Navbar() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500">
                   01.{" "}
                 </span>
-                Skill
+                Skills
               </a>
             </li>
             <li>
