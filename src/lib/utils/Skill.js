@@ -40,9 +40,19 @@ export const Skills = [
     name: "Docker",
   },
   {
-    link: "https://nextjs.org//",
-    img: "https://static-00.iconduck.com/assets.00/next-js-icon-512x512-zuauazrk.png",
+    link: "https://nextjs.org/",
+    img: "https://www.rlogical.com/wp-content/uploads/2021/08/Rlogical-Blog-Images-thumbnail.png",
 
     name: "Next Js",
   },
+  {
+    link: "https://hardhat.org/",
+    img: "https://plugins.jetbrains.com/files/18551/292001/icon/pluginIcon.png",
+    name: "Hardhat",
+  },
+  {
+    name: "React Native",
+    img: "https://img.icons8.com/plasticine/100/000000/react.png",
+    link: "https://reactjs.org/",
+  }
 ];

@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+    scroll-behavior: smooth;
+  }
+html::-webkit-scrollbar {
+    display: none;
+  }
+  
+.img-color{
+    filter: grayscale(1);
+    transition: 0.5s ease-in-out;
+}
+.img-color:hover{
+    filter: grayscale(0);
+}
