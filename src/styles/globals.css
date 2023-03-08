@@ -2,23 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 html::-webkit-scrollbar {
-    display: none;
-  }
-  
-.img-color{
-    filter: grayscale(1);
-    transition: 0.5s ease-in-out;
-}
-.img-color:hover{
-    filter: grayscale(0);
+  display: none;
 }
 
+.img-color {
+  filter: grayscale(1);
+  transition: 0.5s ease-in-out;
+}
+.img-color:hover {
+  filter: grayscale(0);
+}
 
-
-.slider{
+.slider {
   max-width: 1400px;
   color: #fff;
   border-radius: 10px;
@@ -27,34 +25,34 @@ html::-webkit-scrollbar {
   display: grid;
 }
 
-.slider .content_container{
+.slider .content_container {
   padding: 40px;
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 500px) {
-  .slider .content_container{
+  .slider .content_container {
     display: none;
   }
 
-.slider {
-  grid-template-columns:100% 0%;
+  .slider {
+    grid-template-columns: 100% 0%;
+  }
 }
-}
-.slider .slides{
+.slider .slides {
   overflow-y: auto;
   /* max-height: 500px; */
   height: 280px;
-  
+
   scrollbar-width: none;
 }
 
-.slider .slides::-webkit-scrollbar{
+.slider .slides::-webkit-scrollbar {
   display: none;
 }
 
-.slider .slides .slide{
+.slider .slides .slide {
   min-height: calc(100% - 80px);
   /* background-color: skyblue; */
   display: flex;
@@ -83,6 +81,7 @@ html::-webkit-scrollbar {
 }
 .dVLQAC li a {
   padding: 8px;
+  transition: 0.5s ease-in;
 }
 .dVLQAC li a:hover {
   color: #9333ea;
@@ -132,4 +131,38 @@ html::-webkit-scrollbar {
 }
 .jJFfEJ a:hover {
   color: #9333ea;
+  transition: 0.5s ease-in;
+}
+
+.logo {
+  width: 200px;
+  animation: logoFade 0.5s infinite ease-in-out;
+}
+@keyframes logoFade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fadeIn 1.2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.glass {
+  background-color: #0f172a90;
+  z-index: 99;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
