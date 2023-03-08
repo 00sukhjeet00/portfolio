@@ -3,7 +3,7 @@ import Title from "./Title";
 import { Experiences } from "@/lib/utils/Experience";
 export default function Experience() {
   return (
-    <div className="pt-20">
+    <div className="pt-20" id="experience">
       <Title title={"Experience"} num={"02"} />
       <section className="slider">
         <div className="content_container">

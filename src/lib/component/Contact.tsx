@@ -3,11 +3,11 @@ import Title from "./Title";
 
 export default function Contact() {
   return (
-    <div className="pt-20">
+    <div className="pt-20" id="contact">
       <Title title={"What’s Next?"} num={"03"} />
       <div className="flex justify-center items-center py-4 flex-col">
         <h2 className="text-white text-4xl">Get In Touch</h2>
-        <p className="text-gray-400 w-3/4 my-2 text-center">
+        <p className="lg:w-3/4 text-gray-400 my-2 text-center">
           My inbox is always open. Whether you have a question or just want to
           say hi, I’ll try my best to get back to you!
         </p>

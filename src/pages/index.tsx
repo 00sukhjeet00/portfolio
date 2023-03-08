@@ -19,15 +19,15 @@ export default function Home() {
       <div>
         <Navbar />
 
-        <div className="container lg:px-56 sm:px-10 pt-20 flex flex-col	">
+        <div className="container lg:px-56 max-[500px]:px-5 pt-20 flex flex-col	">
           <span className="text-transparent text-lg bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500">
             Hi, my name is
           </span>
-          <span className="text-8xl text-white mb-5">Sukhjeet Singh.</span>
-          <span className="text-4xl text-gray-400">
+          <span className="max-[500px]:text-5xl text-8xl text-white mb-5">Sukhjeet Singh.</span>
+          <span className="max-[500px]:text-2xl text-4xl text-gray-400">
             I build things for the cross platform.
           </span>
-          <span className="text-xl text-gray-400">
+          <span className="max-[500px]:text-sm text-xl text-gray-400">
             I’m a software engineer specializing in building exceptional digital
             experiences.
           </span>

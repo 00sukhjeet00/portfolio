@@ -33,7 +33,15 @@ html::-webkit-scrollbar {
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width: 500px) {
+  .slider .content_container{
+    display: none;
+  }
 
+.slider {
+  grid-template-columns:100% 0%;
+}
+}
 .slider .slides{
   overflow-y: auto;
   /* max-height: 500px; */

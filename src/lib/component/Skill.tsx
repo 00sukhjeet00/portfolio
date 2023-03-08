@@ -3,7 +3,7 @@ import Title from "./Title";
 import { Skills } from "@/lib/utils/Skill";
 export default function Skill() {
   return (
-    <div className="pt-20">
+    <div className="pt-20" id="skill">
       <Title title={"Skills"} num={"01"} />
       <div className="center flex justify-evenly items-center mb-5 pt-10">
         <a

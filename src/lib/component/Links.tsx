@@ -4,8 +4,7 @@ export default function Links() {
   return (
     <>
       <div
-        orientation="left"
-        className="side__StyledSideElement-sc-1duznzb-0 hOvuuP"
+        className="hOvuuP max-[500px]:hidden"
       >
         <ul className="dVLQAC fade-enter-done">
           <li>
@@ -86,7 +85,7 @@ export default function Links() {
           </li>
         </ul>
       </div>
-      <div orientation="right" className="jSIwrL">
+      <div className="jSIwrL max-[500px]:hidden">
         <div className="jJFfEJ fade-enter-done">
           <a href="mailto:sukhjeet20002@gmail.com">
             sukhjeet20002@gmail.com
