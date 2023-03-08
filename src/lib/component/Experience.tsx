@@ -9,22 +9,22 @@ export default function Experience() {
         <div className="content_container">
           <ul className="slide_navigation">
             <li className="mb-4">
-              <a href="#slide_1" className="active">
+              <a href="/#slide_1" className="active">
                 Covetus
               </a>
             </li>
             <li className="mb-4">
-              <a href="#slide_2">ITinformatix</a>
+              <a href="/#slide_2">ITinformatix</a>
             </li>
             <li className="mb-4">
-              <a href="#slide_3">Freelancer</a>
+              <a href="/#slide_3">Freelancer</a>
             </li>
           </ul>
         </div>
 
         <div className="slides">
-          {Experiences.map((exp) => (
-            <div className="slide">
+          {Experiences.map((exp,index) => (
+            <div className="slide" id={"slide_"+(index+1)} key={index}>
               <div className="inner_content">
                 <h1 className="text-lg">
                   {exp.title}
