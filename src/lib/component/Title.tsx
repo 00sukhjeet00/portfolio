@@ -5,7 +5,7 @@ interface title{
 }
 export default function Title(props:title) {
   return (
-    <div className="max-[500px]:text-base text-3xl text-gray-900 dark:text-white flex items-center mb-2 tracking-wide">
+    <div className="max-[500px]:text-xl text-3xl text-gray-900 dark:text-white flex items-center mb-2 tracking-wide">
       <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500 mr-2">
         {props.num}.
       </span>

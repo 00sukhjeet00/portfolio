@@ -21,7 +21,7 @@ export default function Work() {
           </a>
           <div className="p-2">
             <a href="#">
-              <h5 className="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white">
+              <h5 className="max-[500px]:text-xl mb-2 text-2xl tracking-tight text-gray-900 dark:text-white">
                 JPEG Transcoder
               </h5>
             </a>
@@ -55,7 +55,7 @@ export default function Work() {
           </a>
           <div className="p-2">
             <a href="#">
-              <h5 className="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white">
+              <h5 className="max-[500px]:text-xl mb-2 text-2xl tracking-tight text-gray-900 dark:text-white">
                 Compiler Js
               </h5>
             </a>
@@ -79,7 +79,7 @@ export default function Work() {
           </a>
           <div className="p-2">
             <a href="#">
-              <h5 className="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white">
+              <h5 className="max-[500px]:text-xl mb-2 text-2xl tracking-tight text-gray-900 dark:text-white">
                 Varnduais
               </h5>
             </a>
@@ -123,7 +123,7 @@ export default function Work() {
           </a>
           <div className="p-2">
             <a href="#">
-              <h5 className="mb-2 text-2xl tracking-tight text-gray-900 dark:text-white">
+              <h5 className="max-[500px]:text-xl mb-2 text-2xl tracking-tight text-gray-900 dark:text-white">
                 Vigaah
               </h5>
             </a>
