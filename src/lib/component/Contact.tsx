@@ -3,7 +3,13 @@ import Title from "./Title";
 
 export default function Contact() {
   return (
-    <div className="pt-20" id="contact">
+    <div
+      className="pt-20"
+      id="contact"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
+    >
       <Title title={"What’s Next?"} num={"04"} />
       <div className="flex justify-center items-center py-4 flex-col">
         <h2 className="text-white text-4xl">Get In Touch</h2>

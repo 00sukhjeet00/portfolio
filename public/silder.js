@@ -61,3 +61,4 @@
     vertical_slider.init();
   })();
   
+  

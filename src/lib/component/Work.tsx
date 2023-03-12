@@ -3,7 +3,9 @@ import Title from "./Title";
 
 export default function Work() {
   return (
-    <div className="pt-20" id="work">
+    <div className="pt-20" id="work" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
       <Title title={"Some Things I’ve Built"} num={"03"} />
 
       <div className="flex flex-wrap flex-row justify-evenly">

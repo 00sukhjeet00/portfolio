@@ -5,6 +5,8 @@ export default function Links() {
     <>
       <div
         className="hOvuuP max-[500px]:hidden"
+        data-aos="fade-up"
+        data-aos-duration="900"
       >
         <ul className="dVLQAC fade-enter-done">
           <li>
@@ -85,11 +87,13 @@ export default function Links() {
           </li>
         </ul>
       </div>
-      <div className="jSIwrL max-[500px]:hidden">
+      <div
+        className="jSIwrL max-[500px]:hidden"
+        data-aos="fade-up"
+        data-aos-duration="900"
+      >
         <div className="jJFfEJ fade-enter-done">
-          <a href="mailto:sukhjeet20002@gmail.com">
-            sukhjeet20002@gmail.com
-          </a>
+          <a href="mailto:sukhjeet20002@gmail.com">sukhjeet20002@gmail.com</a>
         </div>
       </div>
     </>

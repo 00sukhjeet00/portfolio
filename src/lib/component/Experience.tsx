@@ -3,7 +3,9 @@ import Title from "./Title";
 import { Experiences } from "@/lib/utils/Experience";
 export default function Experience() {
   return (
-    <div className="pt-20" id="experience">
+    <div className="pt-20" id="experience" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
       <Title title={"Experience"} num={"02"} />
       <section className="slider">
         <div className="content_container">
