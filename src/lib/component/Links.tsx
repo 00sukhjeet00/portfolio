@@ -49,7 +49,7 @@ export default function Links() {
           </li>
           <li>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/00sukhjeet00/"
               aria-label="Instagram"
               target="_blank"
               rel="noreferrer"
