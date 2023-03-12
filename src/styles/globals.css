@@ -39,6 +39,9 @@ body{
   .slider {
     grid-template-columns: 100% 0%;
   }
+  .slider .slides {
+    height: 400px !important;  
+  }
 }
 .slider .slides {
   overflow-y: auto;
