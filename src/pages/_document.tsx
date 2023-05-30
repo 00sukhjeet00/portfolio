@@ -12,9 +12,6 @@ export default function Document() {
         <div className="circle"></div>
         <div className="circle"></div>
         <div className="circle"></div>
-        <div className="circle"></div>
-        <div className="circle"></div>
-        <div className="circle"></div>
         <NextScript />
         <script src="silder.js"></script>
         <script src="mouse.js"></script>

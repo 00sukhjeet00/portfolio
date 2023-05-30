@@ -8,7 +8,7 @@ import Navbar from "@/lib/component/Navbar";
 import Skill from "@/lib/component/Skill";
 import { useEffect, useState } from "react";
 import Loader from "@/lib/component/Loader";
-
+import {Jellyfish} from '@/lib/component/Jellyfish'
 export default function Home() {
   const [isLoading, setisLoading] = useState<boolean>(true);
   useEffect(() => {
@@ -31,6 +31,7 @@ export default function Home() {
       ) : (
         <div>
           <Navbar />
+          <Jellyfish/>
           <div className="container lg:px-56 max-[500px]:px-5 pt-20 max-[500px]:pt-36 flex flex-col">
             <span
               className="text-transparent text-lg bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500"

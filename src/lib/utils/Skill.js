@@ -15,12 +15,12 @@ export const Skills = [
 
     name: "MongoDB",
   },
-  {
-    link: "https://www.postman.com/",
-    img: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
+  // {
+  //   link: "https://www.postman.com/",
+  //   img: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png",
 
-    name: "Postman",
-  },
+  //   name: "Postman",
+  // },
   {
     link: "https://firebase.google.com/",
     img: "https://img.icons8.com/color/50/000000/google-firebase-console.png",

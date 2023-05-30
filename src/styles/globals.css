@@ -4,7 +4,7 @@
 body::-webkit-scrollbar {
   display: none;
 }
-body{
+body {
   cursor: none;
   scroll-behavior: smooth;
 }
@@ -40,7 +40,7 @@ body{
     grid-template-columns: 100% 0%;
   }
   .slider .slides {
-    height: 400px !important;  
+    height: 400px !important;
   }
 }
 .slider .slides {
@@ -169,11 +169,37 @@ body{
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
-.circle{
+.circle {
   height: 50px;
   width: 50px;
   position: fixed;
   top: 0;
   left: 0;
   border-radius: 100%;
+}
+.obj1 {
+  opacity: 0.5;
+  width: 120px;
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+  transform: rotateZ(323deg);
+  z-index: -1;
+}
+.obj2 {
+  opacity: 0.4;
+  width: 90px;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  transform: rotateZ(39deg);
+  z-index: -1;
+}
+.obj3 {
+  opacity: 0.34;
+  width: 290px;
+  position: absolute;
+  top: 240px;
+  left: -200px;
+  transform: rotateZ(39deg);
 }
