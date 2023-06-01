@@ -10,7 +10,7 @@ export default function Contact() {
       data-aos-easing="linear"
       data-aos-duration="1500"
     >
-      <Title title={"What’s Next?"} num={"04"} />
+      <Title title={"What’s Next?"} num={"05"} />
       <div className="flex justify-center items-center py-4 flex-col">
         <h2 className="text-white text-4xl max-[500px]:text-xl">Get In Touch</h2>
         <p className="lg:w-3/4 text-gray-400 my-2 text-center">

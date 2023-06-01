@@ -92,11 +92,22 @@ export default function Navbar() {
             </li>
             <li>
               <a
-                href="/#contact"
+                href="/#about"
                 className="text-gray-900 dark:text-white hover:underline"
               >
                 <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500">
                   04.{" "}
+                </span>
+                About Me
+              </a>
+            </li>
+            <li>
+              <a
+                href="/#contact"
+                className="text-gray-900 dark:text-white hover:underline"
+              >
+                <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500">
+                  05.{" "}
                 </span>
                 Contact
               </a>

@@ -1,20 +1,21 @@
 import Head from "next/head";
-import dynamic from "next/dynamic";
 import Experience from "@/lib/component/Experience";
 import Links from "@/lib/component/Links";
 import Work from "@/lib/component/Work";
 import Contact from "@/lib/component/Contact";
 import Navbar from "@/lib/component/Navbar";
 import Skill from "@/lib/component/Skill";
+import About from "@/lib/component/About";
 import { useEffect, useState } from "react";
 import Loader from "@/lib/component/Loader";
 import {Jellyfish} from '@/lib/component/Jellyfish'
+
 export default function Home() {
   const [isLoading, setisLoading] = useState<boolean>(true);
   useEffect(() => {
     setTimeout(() => {
       setisLoading(false);
-    }, 500);
+    }, 200);
   }, []);
 
   return (
@@ -52,8 +53,13 @@ export default function Home() {
               </span>
             </span>
             <span className="max-[500px]:text-sm text-xl text-gray-400" data-aos="fade-up" style={{transitionDelay:"0.8s"}}>
-              I’m a software engineer specializing in building exceptional
+              I’m a <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500">
+                {"Software Engineer"}
+              </span> specializing in building exceptional
               digital experiences.
+              <br/>Dev passionate about engaging <span className="text-transparent bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500">
+                {"UX"}
+              </span>.
             </span>
             <div className="mt-8" data-aos="fade-up" style={{transitionDelay:"0.8s"}}>
               <a
@@ -69,6 +75,7 @@ export default function Home() {
             <Skill />
             <Experience />
             <Work />
+            <About />
             <Contact />
             <footer className="text-center text-gray-300 mt-2 mb-5">
               Designed & Built by
