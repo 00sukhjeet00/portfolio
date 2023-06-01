@@ -8,7 +8,7 @@ export default function Skill() {
     data-aos-duration="1000"
     style={{position:"relative"}}
     >
-      <img src="/assets/jellyfish.svg" className="obj3"/>
+      {/* <img src="/assets/jellyfish.svg" className="obj3"/> */}
       <Title title={"Skills"} num={"01"} />
       <div className="center flex justify-evenly items-center mb-5 pt-10">
         <a
