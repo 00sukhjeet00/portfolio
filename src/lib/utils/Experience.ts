@@ -1,8 +1,14 @@
 export const Experiences = [
   {
+    title: "Solutions Engineer",
+    company: "Deqode",
+    date: "June 2023 - Present",
+    description: ["Working as Solutions Engineer"],
+  },
+  {
     title: "Sr. Frotend Developer",
     company: "Covetus",
-    date: "January 2023 - Present",
+    date: "January 2023 - May 2023",
     description: ["Working as Sr. React and Next Js Developer"],
   },
   {
@@ -24,7 +30,7 @@ export const Experiences = [
     description: [
       "Developed an e-commerce application for clients that supports multiple vendors.",
       "User friendly UI interface and responsive web application.",
-      "Developing single vendor e-commerce application for clients having 117k+ users by providing the best user experience UI."
+      "Developing single vendor e-commerce application for clients having 117k+ users by providing the best user experience UI.",
     ],
   },
 ];
