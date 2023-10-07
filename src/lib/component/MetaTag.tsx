@@ -42,7 +42,7 @@ export function MetaTag() {
       />
       <meta
         property="og:url"
-        content="https://www.linkedin.com/in/sukhjeet-singh-891aa51b4/"
+        content="https://www.linkedin.com/in/00sukhjeet00/"
       />
       <meta property="og:site_name" content="Linkedin" />
     </Head>

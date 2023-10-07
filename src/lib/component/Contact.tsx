@@ -42,7 +42,7 @@ export default function Contact() {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/sukhjeet-singh-891aa51b4/"
+                href="https://www.linkedin.com/in/00sukhjeet00/"
                 aria-label="Linkedin"
                 target="_blank"
                 rel="noreferrer"
