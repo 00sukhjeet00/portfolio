@@ -11,7 +11,7 @@ export function MetaTag() {
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <meta
         name="description"
-        content="Welcome to the portfolio of Sukhjeet Singh, a frontend engineer showcasing projects and skills in web development and react native."
+        content="Passionate Frontend Engineer | Crafting Seamless User Experiences with React/Next Js and React Native"
       />
       <meta
         name="keywords"
