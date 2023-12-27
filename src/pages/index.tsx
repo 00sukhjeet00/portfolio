@@ -6,10 +6,9 @@ import Contact from "@/lib/component/Contact";
 import Navbar from "@/lib/component/Navbar";
 import Skill from "@/lib/component/Skill";
 import About from "@/lib/component/About";
-import { useEffect, useState } from "react";
-import Loader from "@/lib/component/Loader";
 import { Jellyfish } from "@/lib/component/Jellyfish";
 import { MetaTag } from "@/lib/component/MetaTag";
+import { Animation } from "@/lib/component/Animation";
 
 export default function Home() {
   return (
@@ -17,7 +16,8 @@ export default function Home() {
       <MetaTag />
       <div>
         <Navbar />
-        <Jellyfish />
+        <Animation />
+        {/* <Jellyfish /> */}
         <div className="container lg:px-56 max-[500px]:px-5 pt-20 max-[500px]:pt-36 flex flex-col">
           <span
             className="text-transparent text-lg bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500"
