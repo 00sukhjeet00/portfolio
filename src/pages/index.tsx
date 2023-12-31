@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Experience from "@/lib/component/Experience";
 import Links from "@/lib/component/Links";
 import Work from "@/lib/component/Work";
@@ -6,7 +5,6 @@ import Contact from "@/lib/component/Contact";
 import Navbar from "@/lib/component/Navbar";
 import Skill from "@/lib/component/Skill";
 import About from "@/lib/component/About";
-import { Jellyfish } from "@/lib/component/Jellyfish";
 import { MetaTag } from "@/lib/component/MetaTag";
 import { Animation } from "@/lib/component/Animation";
 
