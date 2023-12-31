@@ -1,7 +1,18 @@
 import React from "react";
 import Title from "./Title";
-import { Experiences } from "@/lib/utils/Experience";
+import { useFetchExperiences } from "@/lib/hooks/experiences";
+
+interface Experience {
+  title: string;
+  company: string;
+  date: string;
+  description: string[];
+  _id: string;
+}
+
 export default function Experience() {
+  const { experiences } = useFetchExperiences();
+
   return (
     <div
       className="pt-20"
@@ -14,8 +25,8 @@ export default function Experience() {
       <section className="slider">
         <div className="content_container">
           <ul className="slide_navigation">
-            {Experiences.map((experience, index) => (
-              <li className="mb-4" key={index}>
+            {experiences.map((experience: Experience, index) => (
+              <li className="mb-4" key={experience._id}>
                 <a href={"/#slide_" + (index + 1)} className="active">
                   {experience.company}
                 </a>
@@ -25,7 +36,7 @@ export default function Experience() {
         </div>
 
         <div className="slides">
-          {Experiences.map((exp, index) => (
+          {experiences.map((exp: Experience, index) => (
             <div className="slide" id={"slide_" + (index + 1)} key={index}>
               <div className="inner_content">
                 <h1 className="text-lg">

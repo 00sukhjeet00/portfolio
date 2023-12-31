@@ -1,14 +1,26 @@
 import React from "react";
 import Title from "./Title";
-import { Skills } from "@/lib/utils/Skill";
+import { useFetchSkills } from "@/lib/hooks/skills";
+
+interface Skill {
+  link: string;
+  img: string;
+  name: string;
+  _id: string;
+}
+
 export default function Skill() {
+  const { skills } = useFetchSkills();
+
   return (
-    <div className="pt-20" id="skill" data-aos="fade-down"
-    data-aos-easing="linear"
-    data-aos-duration="1000"
-    style={{position:"relative"}}
+    <div
+      className="pt-20"
+      id="skill"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1000"
+      style={{ position: "relative" }}
     >
-      {/* <img src="/assets/jellyfish.svg" className="obj3"/> */}
       <Title title={"Skills"} num={"01"} />
       <div className="center flex justify-evenly items-center mb-5 pt-10">
         <a
@@ -67,9 +79,9 @@ export default function Skill() {
         </a>
       </div>
       <div className="center flex justify-evenly flex-wrap">
-        {Skills.map((item, index) => (
+        {skills.map((item: Skill, index) => (
           <a
-            key={index}
+            key={item._id}
             className="flex flex-col items-center pr-8 pl-8 mb-8"
             href={item.link}
             target="_blank"
